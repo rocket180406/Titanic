@@ -7,13 +7,14 @@ import java.io.InputStreamReader;
 import java.util.Random;
 
 public class Titanic {
-    public static final String[] COMANDOS = { "java", "com.psp.primera.evaluacion.practica.obligatoria.Botes" };
+    public static final String[] COMANDOS = {
+    "java", "-cp", "com.psp.primera.evaluacion.practica.obligatoria.Botes"
+};
     public static final String MSG_ERROR = "Se ha producido un error al ejecutar el comando";
     public static final String ID = "B";
 
     public static void main(String[] args) {
         for(int i = 0; i < 20; i++){
-            i=i+0;
         String conteo = desplegar(COMANDOS);
         System.out.println(conteo);
         }
